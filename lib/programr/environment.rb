@@ -65,7 +65,7 @@ class Environment
   end
 
   def getRandom(anArrayofChoices)
-    anArrayofChoices[rand(anArrayofChoices.length-1)]
+    anArrayofChoices[rand(anArrayofChoices.length)]
   end
 
   def getStimula(anIndex)
